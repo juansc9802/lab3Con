@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#3498db" /> <!-- Fondo azul -->
+            <corners android:radius="8dp" /> <!-- Radio para redondear las esquinas -->
+        </shape>
+    </item>
+    <item android:right="1dp" android:left="1dp" android:top="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffffff" /> <!-- Color blanco para el borde -->
+            <corners android:radius="8dp" /> <!-- Radio para redondear las esquinas -->
+        </shape>
+    </item>
+</layer-list>
